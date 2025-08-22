@@ -1,0 +1,14 @@
+title: Quarto-ensta
+author: Flavien Loiseau
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  formats:
+    revealjs:
+      # Theme
+      theme: [default, custom.scss]
+      # logo: logo.png
+      slide-number: true
+      smaller: true
+      # Title slide
+      date-format: long

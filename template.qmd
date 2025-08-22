@@ -1,0 +1,29 @@
+---
+title: Template
+subtitle: Based on ENSTA graphic guidelines
+format:
+  quarto-ensta-revealjs: default
+author:
+  - name: F. Loiseau
+    orcid: 0000-0002-6305-7309
+    email: flavien.loiseau@ensta.fr
+    affiliations:
+      - ref: imsia
+affiliations:
+  - id: imsia
+    name: IMSIA, CNRS, EDF, ENSTA Paris, Institut Polytechnique de Paris, 91120 Palaiseau, France
+date: last-modified
+---
+
+## Introduction
+
+*TODO* Create an example file that demonstrates the formatting and features of your format.
+
+## More Information
+
+You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
+
+# Bonjour
+
+- bonjoru
+- bonjour
