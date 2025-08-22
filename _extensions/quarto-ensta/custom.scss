@@ -14,14 +14,13 @@ $black: #000000;
 $body-bg: $white;
 $body-color: $nightblue;
 $link-color: $enstablue;
-$selection-color: $body-bg;
 $text-muted: lighten($black, 50%);
 
 $alert-color: $coral;
 $example-color: $enstablue;
 
-
 // Font
+$presentation-font-smaller: 0.6 !default;
 $font-family-sans-serif: "Century Gothic";
 
 /*-- scss:rules --*/
@@ -76,15 +75,22 @@ $font-family-sans-serif: "Century Gothic";
 }
 
 .reveal .title-slide {
-  background-color: $enstablue;
+  background-color: $coral;
 }
 
 .reveal .title-slide h1 {
   text-align: left;
+  color: $white;
+  link-color: $white;
 }
 
 .reveal .title-slide p {
   text-align: left;
+  color: $white;
+}
+
+.reveal .title-slide a {
+  color: $white;
 }
 
 .alert {
@@ -95,4 +101,6 @@ $font-family-sans-serif: "Century Gothic";
   color: $example-color;
 }
 
-
+.muted {
+  color: $text-muted;
+}

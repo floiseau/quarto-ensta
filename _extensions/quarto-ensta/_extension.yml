@@ -12,3 +12,10 @@ contributes:
       smaller: true
       # Title slide
       date-format: long
+      # Aspect ratio
+      width: 1280
+      height: 720
+      # Bibliography
+      csl: apa.csl
+      # Disable figure auto-stretch
+      auto-stretch: false
